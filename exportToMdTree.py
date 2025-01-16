@@ -12,6 +12,8 @@ def list_files(startpath):
         indent = ' ' * 2 * (level - 1)
         basename = os.path.basename(root)
         relpath = os.path.relpath(root, start=startpath)
+        if "d_" == basename[:2]:
+            continue
         if "visualscript" in relpath: 
                 continue
         if "creator" in relpath: 
@@ -24,6 +26,8 @@ def list_files(startpath):
         subindent = ' ' * 2 * (level)
         files.sort()
         for f in files:
+            if "d_" == f[:2]:
+                continue
             if "index.md" in f:
                 continue
             if ".md" not in f: 
