@@ -5,7 +5,7 @@ from directory_tree import DisplayTree
 
 def list_files(startpath):
     for root, dirs, files in os.walk(startpath):
-        level = root.replace(startpath, '').count(os.sep) -1
+        level = root.replace(startpath, '').count(os.sep) - 1
         indent = ' ' * 2 * (level)
         basename = os.path.basename(root)
         relpath = os.path.relpath(root)
@@ -15,10 +15,12 @@ def list_files(startpath):
                 continue
         if "_partials" in relpath: 
                 continue
-        print('{}- [{}]({}/{}.md) '.format(indent, basename, relpath, basename))
+        print('{}- [{}]({}/index.md) '.format(indent, basename, relpath, basename))
         subindent = ' ' * 2 * (level + 1)
         for f in files:
-            if ".yml" in f: 
+            if "index.md" in f:
+                continue
+            if ".md" not in f: 
                 continue
             print('{}- [{}]({}/{}) '.format(subindent, f, relpath, f))
 
