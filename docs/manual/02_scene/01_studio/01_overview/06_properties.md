@@ -1,6 +1,3 @@
----
-sidebar_label: "Properties"
----
 import StudioOverview from './_studio_overview.md'
 
 # 6. Properties

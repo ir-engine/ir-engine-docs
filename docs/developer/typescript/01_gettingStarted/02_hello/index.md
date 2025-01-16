@@ -1,6 +1,3 @@
----
-sidebar_label: Hello iR Engine
----
 # Hello World from iR Engine
 The quickstart tutorial helped us create a project and run the engine for the first time.  
 

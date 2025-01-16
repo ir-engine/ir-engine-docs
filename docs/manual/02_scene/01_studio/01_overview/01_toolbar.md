@@ -1,6 +1,3 @@
----
-sidebar_label: "Toolbar"
----
 import StudioOverview from './_studio_overview.md'
 
 # 1. Toolbar

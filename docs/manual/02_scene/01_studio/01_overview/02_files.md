@@ -1,6 +1,3 @@
----
-sidebar_label: "Scene and Files Directory"
----
 import StudioOverview from './_studio_overview.md'
 
 # 2. Scene and Files Directory

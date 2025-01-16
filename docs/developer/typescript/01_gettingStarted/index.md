@@ -1,6 +1,3 @@
----
-sidebar_label: Quickstart
----
 import UbuntuInstall from '../../../_partials/installUbuntu.md'
 import DefaultProjects from '../../../_partials/defaultProjects.md'
 

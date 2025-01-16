@@ -1,6 +1,3 @@
----
-sidebar_label: Webapp
----
 import DocCardList from '@theme/DocCardList'
 
 # Webapp Module

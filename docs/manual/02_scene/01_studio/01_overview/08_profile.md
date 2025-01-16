@@ -1,6 +1,3 @@
----
-sidebar_label: "User Profile"
----
 import StudioOverview from './_studio_overview.md'
 
 # 8. User Profile

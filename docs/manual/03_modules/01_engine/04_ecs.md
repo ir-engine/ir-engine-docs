@@ -1,6 +1,3 @@
----
-sidebar_label: ECS
----
 # Entities, Components and Systems
 
 ## What is an ECS?

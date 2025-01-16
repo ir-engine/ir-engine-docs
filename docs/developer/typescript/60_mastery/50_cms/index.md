@@ -1,5 +1,4 @@
 ---
-sidebar_label: CMS
 draft: true
 ---
 # CMS Guide

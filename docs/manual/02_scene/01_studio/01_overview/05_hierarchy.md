@@ -1,6 +1,3 @@
----
-sidebar_label: "Hierarchy & Material Library"
----
 import StudioOverview from './_studio_overview.md'
 
 # 5. Hierarchy & Material Library

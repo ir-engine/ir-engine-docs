@@ -1,6 +1,3 @@
----
-sidebar_label: Linux
----
 
 import CloneInstructions from '../_partials/cloneInstructions.md'
 import AcceptCertificates from '../_partials/acceptCertificates.md'

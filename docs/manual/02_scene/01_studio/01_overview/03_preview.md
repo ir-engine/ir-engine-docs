@@ -1,6 +1,3 @@
----
-sidebar_label: "The Preview Panel"
----
 import StudioOverview from './_studio_overview.md'
 
 # 3. The Preview Panel

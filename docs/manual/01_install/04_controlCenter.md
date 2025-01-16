@@ -1,6 +1,3 @@
----
-sidebar_label: Control Center
----
 
 import StepAuthentication from '../_partials/controlCenter/step_authentication.md'
 import StepConfigurations from '../_partials/controlCenter/step_configurations.md'

@@ -1,5 +1,4 @@
 ---
-sidebar_label: Advanced Networking
 draft: true
 ---
 

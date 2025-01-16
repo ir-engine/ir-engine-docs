@@ -1,6 +1,3 @@
----
-sidebar_label: "Viewport"
----
 import StudioOverview from './_studio_overview.md'
 
 # 4. Viewport

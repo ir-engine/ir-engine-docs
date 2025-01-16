@@ -1,6 +1,3 @@
----
-sidebar_label: iR Engine Basics
----
 
 import DocCardList from '@theme/DocCardList';
 

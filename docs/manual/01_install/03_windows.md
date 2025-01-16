@@ -1,6 +1,3 @@
----
-sidebar_label: Windows 10+
----
 
 # Installing on Windows 10+
 1. Install Python 3 and add python installation directory path to `PATH` env variable.

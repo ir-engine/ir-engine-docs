@@ -1,6 +1,3 @@
----
-sidebar_label: Instances
----
 import DocCardList from '@theme/DocCardList'
 
 # Instances Module

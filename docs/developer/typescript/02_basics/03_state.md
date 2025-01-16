@@ -1,6 +1,3 @@
----
-sidebar_label: State
----
 
 <!--
 TODO:

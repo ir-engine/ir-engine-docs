@@ -1,6 +1,3 @@
----
-sidebar_label: "Assembly Menu"
----
 import StudioOverview from './_studio_overview.md'
 
 # 7. Assembly Menu

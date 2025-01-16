@@ -1,6 +1,5 @@
 ---
 draft: true
-sidebar_label: Ethereal Engine Basics
 ---
 
 import DocCardList from '@theme/DocCardList';

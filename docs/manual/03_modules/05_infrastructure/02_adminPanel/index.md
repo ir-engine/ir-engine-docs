@@ -1,6 +1,3 @@
----
-sidebar_label: Admin Panel
----
 
 import DocCardList from '@theme/DocCardList'
 

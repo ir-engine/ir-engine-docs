@@ -1,6 +1,3 @@
----
-sidebar_label: Set up Apple SSO for users
----
 
 # Set up Apple SSO for users
 
