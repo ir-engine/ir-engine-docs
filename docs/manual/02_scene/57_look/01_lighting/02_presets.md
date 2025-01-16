@@ -1,5 +1,0 @@
----
-draft: true
----
-
-# Lighting Presets
