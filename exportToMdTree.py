@@ -20,7 +20,7 @@ def list_files(startpath):
         subindent = ' ' * 2 * (level)
         files.sort()
         for f in files:
-            if "d_" in f:
+            if "d_" == f[:2]:
                 continue
             if "index.md" in f:
                 continue
