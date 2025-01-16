@@ -5,10 +5,13 @@ from directory_tree import DisplayTree
 
 def list_files(startpath):
     for root, dirs, files in os.walk(startpath):
-        level = root.replace(startpath, '').count(os.sep) - 1
-        indent = ' ' * 2 * (level)
+        dirs.sort()
+        level = root.replace(startpath, '').count(os.sep)
+        if(level == 0):
+            continue
+        indent = ' ' * 2 * (level - 1)
         basename = os.path.basename(root)
-        relpath = os.path.relpath(root)
+        relpath = os.path.relpath(root, start=startpath)
         if "visualscript" in relpath: 
                 continue
         if "creator" in relpath: 
@@ -16,7 +19,8 @@ def list_files(startpath):
         if "_partials" in relpath: 
                 continue
         print('{}- [{}]({}/index.md) '.format(indent, basename, relpath, basename))
-        subindent = ' ' * 2 * (level + 1)
+        subindent = ' ' * 2 * (level)
+        files.sort()
         for f in files:
             if "index.md" in f:
                 continue
@@ -26,7 +30,8 @@ def list_files(startpath):
 
 
 def main() -> int:
-    list_files('.')
+    print("# Table of Contents\n")
+    list_files('./docs')
     return 0
 
 if __name__ == '__main__':
