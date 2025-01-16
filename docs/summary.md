@@ -1,5 +1,3 @@
-# Table of Contents
-
 - [developer](developer/index.md) 
   - [typescript](developer/typescript/index.md) 
     - [01_gettingStarted](developer/typescript/01_gettingStarted/index.md) 

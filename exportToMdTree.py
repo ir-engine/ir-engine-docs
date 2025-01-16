@@ -30,7 +30,7 @@ def list_files(startpath):
 
 
 def main() -> int:
-    print("# Table of Contents\n")
+    # print("Any Header content\n")
     list_files('./docs')
     return 0
 
