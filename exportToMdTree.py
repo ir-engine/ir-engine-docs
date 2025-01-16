@@ -18,6 +18,8 @@ def list_files(startpath):
                 continue
         if "_partials" in relpath: 
                 continue
+        if not os.path.exists(root+"/index.md"):
+            continue
         print('{}- [{}]({}/index.md) '.format(indent, basename, relpath, basename))
         subindent = ' ' * 2 * (level)
         files.sort()
