@@ -10,7 +10,7 @@ Here you’ll find all the technical resources you need to understand the iR Eng
 :::link-array-item{headerImage headerColor}
 ![](https://archbee-image-uploads.s3.amazonaws.com/SkYkte0h62CAy3WZBgzdf-AxyQxoaYvspGnvmLaL9Of-20250117-150308.png)
 
-**iR Engine Technical Manual 📚**
+****[iR Engine Technical Manual](./manual/index.md)****
 
 Learn how to install the engine, explore its architecture, and grasp essential concepts.&#x20;
 
@@ -20,7 +20,7 @@ This manual is your go-to resource for a holistic learning experience.
 :::link-array-item{headerImage headerColor}
 ![](https://archbee-image-uploads.s3.amazonaws.com/SkYkte0h62CAy3WZBgzdf-GrO3IF0mdEg04yGuVtmJ5-20250117-150308.png)
 
-**TypeScript Developer Guides 💻**
+****[TypeScript Developer Guides](./developer/typescript/index.md)****
 
 Access tutorials, best practices, code examples, and hands-on examples to help you build and maintain TypeScript projects within the iR Engine.&#x20;
 :::
@@ -34,5 +34,8 @@ Use the top navigation bar to explore additional resources. You’ll find handbo
 
 ## Additional resources
 
-- **Creators documentation**: [https://docs.ir.world/](https://docs.ir.world/)
+- **Creators documentation**: <a href="https://docs.ir.world/" target="_blank">https\://docs.ir.world/</a>
+- **iR Engine Confluence Space**: [https://tsu.atlassian.net/wiki/spaces/IREE](https://tsu.atlassian.net/wiki/spaces/IREE)
+- **Documentation repository**: [https://github.com/ir-engine/developer-docs/](https://github.com/ir-engine/developer-docs/)
+- **iR Engine**: [https://preview.ir.world/](https://preview.ir.world/)
 
