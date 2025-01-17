@@ -1,7 +1,8 @@
 ---
 sidebar_position: 00
-title: TypeScript Developer
+title: TypeScript Guides
 ---
+
 # Become a TypeScript Developer
 Here you will learn everything that there is to know about programming with TypeScript + iR Engine.
 <!--
