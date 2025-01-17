@@ -1,4 +1,4 @@
-# Technical Manual
+# Technical manual
 
 Use this Manual to learn how to use the iR Engine to develop real-time 3D web experiences. It covers installation instructions and guides you through the engine and its features.
 
