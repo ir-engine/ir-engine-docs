@@ -34,7 +34,7 @@ Use the top navigation bar to explore additional resources. You’ll find handbo
 
 ## Additional resources
 
-- **Creators documentation**: <a href="https://docs.ir.world" target="_blank">https\://docs.ir.world/</a>
+- **Creators documentation**: [https://docs.ir.world](https://docs.ir.world)
 - **iR Engine Confluence Space**: [https://tsu.atlassian.net/wiki/spaces/IREE](https://tsu.atlassian.net/wiki/spaces/IREE)
 - **Documentation repository**: [https://github.com/ir-engine/developer-docs/](https://github.com/ir-engine/developer-docs/)
 - **iR Engine**: [https://preview.ir.world/](https://preview.ir.world/)
