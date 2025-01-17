@@ -1,9 +1,8 @@
 ---
 sidebar_position: 00
-title: Technical Manual
 ---
 
-# iR Engine Technical Manual
+# Technical Manual
 
 Use this Manual to learn how to use the iR Engine to develop real-time 3D web experiences. It covers installation instructions and guides you through the engine and its features.
 
