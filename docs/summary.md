@@ -6,7 +6,6 @@
     - [02_macOSX.md](manual/01_install/02_macOSX.md) 
     - [03_windows.md](manual/01_install/03_windows.md) 
     - [03_windowsWSL.md](manual/01_install/03_windowsWSL.md) 
-    - [04_controlCenter.md](manual/01_install/04_controlCenter.md) 
     - [050_advanced](manual/01_install/050_advanced/index.md) 
       - [06_staticIP.md](manual/01_install/050_advanced/06_staticIP.md) 
       - [07_troubleshooting.md](manual/01_install/050_advanced/07_troubleshooting.md) 
