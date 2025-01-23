@@ -27,13 +27,13 @@ First, generate a copy of the project by cloning the repository and navigate to 
 2. Clone the repository by running:
 
 ```bash
-git clone https://github.com/EtherealEngine/etherealengine.git
+git clone https://github.com/ir-engine/ir-engine.git
 ```
 
 3. Navigate to the directory of the cloned repository:
 
 ```bash
-cd etherealengine
+cd ir-engine
 ```
 
 ### Step 2: Set up environment variables
