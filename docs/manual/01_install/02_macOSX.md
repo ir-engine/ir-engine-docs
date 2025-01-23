@@ -1,4 +1,3 @@
-
 # Installing on macOS
 
 ## Introduction
@@ -23,18 +22,27 @@ Follow these steps to set up the iR Engine on your macOS device.
 
 First, generate a copy of the project by cloning the repository and navigate to the project directory:
 
-1. Open your terminal
-2. Clone the repository by running:
+::::workflow-block
+:::workflow-block-item
+Open your terminal
+:::
+
+:::workflow-block-item
+Clone the repository by running:
 
 ```bash
 git clone https://github.com/ir-engine/ir-engine.git
 ```
+:::
 
-3. Navigate to the directory of the cloned repository:
+:::workflow-block-item
+Navigate to the directory of the cloned repository by running:
 
 ```bash
 cd ir-engine
 ```
+:::
+::::
 
 ### Step 2: Set up environment variables
 
@@ -57,21 +65,27 @@ nvm use
 **Command output options**:
 
 - **If the version is found (✅):** The system switches to the recommended Node.js version.
-- **If the version is not found (❌):** The system returns a message indicating the missing version.  
+- **If the version is not found (❌):** The system returns a message indicating the missing version.
 
 To resolve, run the following commands:
 
-1. Install the missing version:
+::::workflow-block
+:::workflow-block-item
+Install the missing version:
 
 ```bash
 nvm install <version>
 ```
+:::
 
-2. Activate the version:
+:::workflow-block-item
+Activate the version:
 
 ```bash
 nvm use
 ```
+:::
+::::
 
 ### Step 4: Install dependencies
 
@@ -89,13 +103,19 @@ This section contains the instructions to run your local development environment
 
 ### Step 1: Start Docker and initialize the database
 
-1. Open Docker Desktop
+::::workflow-block
+:::workflow-block-item
+Open Docker Desktop
+:::
 
-2. Initialize the database by running:
+:::workflow-block-item
+Initialize the database by running:
 
 ```bash
 npm run dev-reinit
 ```
+:::
+::::
 
 ### Step 2: Start the development environment
 
@@ -105,7 +125,9 @@ Launch the iR Engine development environment with:
 npm run dev
 ```
 
+:::hint{type="success"}
 This command opens the application at `http://localhost:3000/location/default` in your web browser.
+:::
 
 ### Step 3: Open your development environment
 
