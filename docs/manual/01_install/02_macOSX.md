@@ -26,15 +26,15 @@ First, generate a copy of the project by cloning the repository and navigate to 
 1. Open your terminal
 2. Clone the repository by running:
 
-   ```bash
-   git clone https://github.com/EtherealEngine/etherealengine.git
-   ```
+```bash
+git clone https://github.com/EtherealEngine/etherealengine.git
+```
 
 3. Navigate to the directory of the cloned repository:
 
-   ```bash
-   cd etherealengine
-   ```
+```bash
+cd etherealengine
+```
 
 ### Step 2: Set up environment variables
 
@@ -58,18 +58,20 @@ nvm use
 
 - **If the version is found (✅):** The system switches to the recommended Node.js version.
 - **If the version is not found (❌):** The system returns a message indicating the missing version.  
+
 To resolve, run the following commands:
-  1. Install the missing version:
 
-     ```bash
-     nvm install <version>
-     ```
+1. Install the missing version:
 
-  2. Activate the version:
+```bash
+nvm install <version>
+```
 
-     ```bash
-     nvm use
-     ```
+2. Activate the version:
+
+```bash
+nvm use
+```
 
 ### Step 4: Install dependencies
 
@@ -91,9 +93,9 @@ This section contains the instructions to run your local development environment
 
 2. Initialize the database by running:
 
-   ```bash
-   npm run dev-reinit
-   ```
+```bash
+npm run dev-reinit
+```
 
 ### Step 2: Start the development environment
 
