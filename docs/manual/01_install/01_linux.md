@@ -11,8 +11,8 @@ import AcceptCertificates from '../_partials/acceptCertificates.md'
 1. Ensure you have at least 16GB of RAM  
   _You may run int issues running the full development setup with less_
 2. Clone the repository to a location whose path **contains no spaces**.
-3. Install Node.js 18  
-  _(versions earlier than 16 are not guaranteed to work)_
+3. Install Node.js 22 (22.14.0)
+  _(versions earlier than 22 are not guaranteed to work)_
 4. Install Python >=3.6, [PIP](https://pypi.org/project/pip/), C++, and other build tools  
   _See the [Mediasoup install instructions](https://mediasoup.org/documentation/v3/mediasoup/installation/) for full details._
 5. Install Docker  
@@ -26,19 +26,19 @@ To avoid cloning everything, use this command:
 
 <CloneInstructions />
 
-### Ensure you are running Node 18
-The engine to date has only been confirmed to work with Node 16.x and 18.x.  
+### Ensure you are running Node v22
+The engine to date has been confirmed to work with Node 22.x.  
 Earlier or later major versions are not guaranteed to work properly.
 
 The best way to install and manage Node.js versions is by using a version manager:
 1. Install [NVM](https://github.com/nvm-sh/nvm)
-2. Install Node.js 18 with `nvm install 18`
-3. _(Optional)_ Make Node.js 18 your default node version with `nvm alias default 18`
+2. Install Node.js 22 with `nvm install 22.14.0`
+3. _(Optional)_ Make Node.js 22 your default node version with `nvm alias default 22`
 
 _Note: Polyglot [ASDF](https://github.com/asdf-vm/asdf) can also be used for managing node versions._
 
 Please check the output of `node --version` before running the engine.  
-If you are using a node version below 16, please update or nothing will work.   
+If you are using a node version below 22, please update or nothing will work.   
 You will know that you are having issues if you try to install packages at root with `npm install` and you get package dependency errors.
 
 ### Docker is your friend
