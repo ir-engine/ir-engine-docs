@@ -1,3 +1,11 @@
+# ⚠️ DEPRECATED PROJECT ⚠️
+
+This repository is no longer maintained. The documentation has been migrated to the [developer-docs repository](https://github.com/ir-engine/developer-docs).
+
+This repository contains the legacy documentation from Ethereal Engine. It was used as a reference when forking the new [developer-docs](https://github.com/ir-engine/developer-docs) project to ensure continuity while improving the documentation.
+
+For the latest and actively maintained documentation, please visit the [developer-docs repository](https://github.com/ir-engine/developer-docs), which serves as the source for our [official developer site](https://docs.ir.world/developers).
+
 # Documentation
 
 - [Installation instructions](./docs/manual/01_install/index.md)
